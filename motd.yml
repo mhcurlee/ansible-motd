@@ -1,0 +1,12 @@
+---
+- name: MOTD playbook
+  hosts: all
+  tasks:
+  
+    - name: set motd 
+      copy: 
+        content: "This system is managed by Ansible\n"
+        dest: /etc/motd
+
+
+
