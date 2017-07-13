@@ -5,7 +5,7 @@
   
     - name: set motd 
       copy: 
-        content: "This system is managed by Ansible!\n"
+        content: "This system is managed by Ansible!!\n"
         dest: /etc/motd
 
 
